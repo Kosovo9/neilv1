@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage - Máxima prioridad -->
+  <url>
+    <loc>https://studio-nexora-pro-pro.vercel.app/</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="es-CL" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://studio-nexora-pro-pro.vercel.app/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://studio-nexora-pro-pro.vercel.app/" />
+  </url>
+  
+  <!-- Pricing -->
+  <url>
+    <loc>https://studio-nexora-pro-pro.vercel.app/#pricing</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Examples/Samples -->
+  <url>
+    <loc>https://studio-nexora-pro-pro.vercel.app/#samples</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- How it Works -->
+  <url>
+    <loc>https://studio-nexora-pro-pro.vercel.app/#how-it-works</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Affiliates -->
+  <url>
+    <loc>https://studio-nexora-pro-pro.vercel.app/#affiliates</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

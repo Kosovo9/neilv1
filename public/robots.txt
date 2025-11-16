@@ -1,0 +1,47 @@
+# Ultra-optimized robots.txt for Studio Nexora Pro - Global SEO
+# Targeted for: Google, Bing, Yahoo, DuckDuckGo, Yandex, Baidu
+# Regional focus: Canada, USA, EU, Mexico, Central America, LATAM
+
+# Allow all search engines full access
+User-agent: *
+Allow: /
+
+# Specific bot configurations for maximum indexing
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp  # Yahoo
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+# Mobile-specific bots
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Disallow only necessary paths (keep to minimum for max SEO)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location (critical for SEO)
+Sitemap: https://studio-nexora-pro-pro.vercel.app/sitemap.xml

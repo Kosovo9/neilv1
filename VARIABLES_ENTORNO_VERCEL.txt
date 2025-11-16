@@ -1,0 +1,52 @@
+===========================================
+VARIABLES DE ENTORNO PARA VERCEL
+===========================================
+Copia y pega estas variables en Vercel → Settings → Environment Variables
+===========================================
+
+🔴 REQUERIDAS (Obligatorias):
+
+VITE_SUPABASE_URL=https://tu-proyecto.supabase.co
+VITE_SUPABASE_ANON_KEY=tu-anon-key-aqui
+VITE_APP_URL=https://studio-nexora-pro-profgdgh-gb18wuiya-neils-projects-8becf3f7.vercel.app
+
+===========================================
+
+🟡 OPCIONALES PERO RECOMENDADAS:
+
+🔐 AUTENTICACIÓN:
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_tu-clave-clerk-aqui
+
+🤖 INTELIGENCIA ARTIFICIAL:
+VITE_GOOGLE_AI_API_KEY=AIzaSyCkL5za2v-SmEd778ba-sUBuO6ldRVJPbE
+VITE_REPLICATE_API_TOKEN=tu-token-replicate-aqui
+VITE_STABILITY_API_KEY=tu-api-key-stability-aqui
+
+💳 PAGOS:
+VITE_STRIPE_PUBLIC_KEY=pk_test_tu-clave-publica-stripe
+VITE_STRIPE_SECRET_KEY=sk_test_tu-clave-secreta-stripe
+VITE_LEMONSQUEEZY_API_KEY=tu-api-key-lemonsqueezy
+VITE_LEMONSQUEEZY_STORE_ID=tu-store-id-lemonsqueezy
+
+📧 EMAILS:
+VITE_EMAIL_PROVIDER=resend
+VITE_RESEND_API_KEY=re_tu-api-key-resend
+VITE_SENDGRID_API_KEY=SG.tu-api-key-sendgrid
+VITE_EMAIL_FROM=Studio Nexora <noreply@studionexora.com>
+VITE_ADMIN_EMAIL=tu-email@ejemplo.com
+
+💰 CASH FLOW:
+VITE_AVAILABLE_CASH=10000
+
+===========================================
+NOTAS:
+===========================================
+
+1. VITE_APP_URL: Reemplaza con tu URL real de Vercel después del primer deploy
+2. VITE_GOOGLE_AI_API_KEY: Ya tiene un valor por defecto, pero puedes usar tu propia clave
+3. VITE_EMAIL_PROVIDER: Usa 'resend' o 'sendgrid'
+4. Mercado Pago: Está configurado en el código, no requiere variables de entorno
+5. Todas las variables deben estar en los 3 ambientes: Production, Preview, Development
+
+===========================================
+
