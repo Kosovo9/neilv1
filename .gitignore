@@ -17,6 +17,7 @@ build
 .env.production.local
 env-completo.txt
 env-para-copiar.txt
+neilv1.env
 
 # Logs
 logs

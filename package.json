@@ -10,10 +10,15 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "postinstall": "npm run build || true",
     "deploy:cloudflare": "npm run build && wrangler pages deploy dist",
     "deploy:preview": "npm run build && wrangler pages deploy dist --project-name=studio-nexora",
     "deploy:vercel": "vercel --prod",
     "deploy:vercel:preview": "vercel"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.55.0",

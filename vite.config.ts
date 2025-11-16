@@ -17,13 +17,16 @@ export default defineConfig({
   },
   build: {
     minify: 'esbuild',
-    target: 'es2015',
+    target: 'es2020',
     outDir: 'dist',
     sourcemap: false,
     emptyOutDir: true,
     cssCodeSplit: true,
     reportCompressedSize: false,
     chunkSizeWarningLimit: 1600,
+    commonjsOptions: {
+      include: [/node_modules/],
+    },
     rollupOptions: {
       output: {
         manualChunks: (id) => {
