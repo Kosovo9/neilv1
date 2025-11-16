@@ -34,8 +34,18 @@ if %ERRORLEVEL% EQU 0 (
     gh repo view neilv1 >nul 2>&1
     if %ERRORLEVEL% EQU 0 (
         echo [INFO] El repositorio neilv1 ya existe. Haciendo push...
+        echo [INFO] Obteniendo información del usuario de GitHub...
+        for /f "tokens=*" %%i in ('gh api user --jq .login') do set GITHUB_USER=%%i
+        if "%GITHUB_USER%"=="" (
+            echo [ERROR] No se pudo obtener el usuario de GitHub.
+            echo Por favor, ejecuta manualmente:
+            echo   git remote add origin https://github.com/TU_USUARIO/neilv1.git
+            echo   git push -u origin main
+            pause
+            exit /b 1
+        )
         git remote remove origin 2>nul
-        git remote add origin https://github.com/%USERNAME%/neilv1.git 2>nul
+        git remote add origin https://github.com/%GITHUB_USER%/neilv1.git
         git push -u origin main
         if %ERRORLEVEL% EQU 0 (
             echo [OK] Código actualizado exitosamente!
