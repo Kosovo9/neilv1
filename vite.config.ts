@@ -6,7 +6,14 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
-    include: ['react', 'react-dom', '@clerk/clerk-react', '@supabase/supabase-js'],
+    include: [
+      'react',
+      'react-dom',
+      'react/jsx-runtime',
+      '@clerk/clerk-react',
+      '@supabase/supabase-js',
+      '@stripe/stripe-js',
+    ],
   },
   build: {
     minify: 'esbuild',
@@ -16,7 +23,7 @@ export default defineConfig({
     emptyOutDir: true,
     cssCodeSplit: true,
     reportCompressedSize: false,
-    chunkSizeWarningLimit: 1000,
+    chunkSizeWarningLimit: 1600,
     rollupOptions: {
       output: {
         manualChunks: (id) => {
