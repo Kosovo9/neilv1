@@ -11,7 +11,9 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "deploy:cloudflare": "npm run build && wrangler pages deploy dist",
-    "deploy:preview": "npm run build && wrangler pages deploy dist --project-name=studio-nexora"
+    "deploy:preview": "npm run build && wrangler pages deploy dist --project-name=studio-nexora",
+    "deploy:vercel": "vercel --prod",
+    "deploy:vercel:preview": "vercel"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.55.0",
