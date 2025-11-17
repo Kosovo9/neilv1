@@ -1,0 +1,16 @@
+{
+  "name": "neilv1-r2-cdn",
+  "version": "1.0.0",
+  "description": "Cloudflare R2 CDN Worker for NeilV1 AI Images",
+  "main": "src/index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.19.0"
+  }
+}
+

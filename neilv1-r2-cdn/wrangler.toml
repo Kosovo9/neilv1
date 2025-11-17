@@ -1,0 +1,8 @@
+name = "neilv1-r2-cdn"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "neilv1-ai-images"
+
