@@ -411,9 +411,9 @@ function App() {
         />
       )}
 
-//             {currentView === 'espacio' && (
-        // <Espacio />
-      // )}
+      {/* {currentView === 'espacio' && (
+        <Espacio />
+      )} */}
 
       {currentView !== 'success' && currentView !== 'cancel' && (
         <Footer lang={lang} onLanguageChange={setLang} />
